@@ -29,9 +29,9 @@ app.get('/me', async (req, res) => {
     const response = {
       status: "success",
       user: {
-        email: "<your email>",
-        name: "<your full name>",
-        stack: "<your backend stack>"
+        email: "uchennapeace2003@gmail.com",
+        name: "Onoh Uchenna Peace",
+        stack: "Node.js/Express"
       },
       timestamp: timestamp,
       fact: catFactResponse.data.fact
@@ -50,9 +50,9 @@ app.get('/me', async (req, res) => {
     res.status(200).json({
       status: "success",
       user: {
-        email: "<your email>",
-        name: "<your full name>",
-        stack: "<your backend stack>"
+        email: "uchennapeace2003@gmail.com",
+        name: "Onoh Uchenna Peace",
+        stack: "Node.js/Express"
       },
       timestamp: timestamp,
       fact: "Cats are amazing creatures! (Cat Facts API temporarily unavailable)"
